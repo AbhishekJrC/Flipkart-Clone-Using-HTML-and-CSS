@@ -61,9 +61,6 @@ header .search .search-container input{
 }
 header .search .search-container svg{
     background-color: rgb(234, 239, 248);
-    left: 10px;
-  
-  
 }
 .search-btn{
     border: none;
@@ -189,39 +186,11 @@ header .seller button{
     }
 .section-4-container{
     margin-top: 8px;
-    height: 362px;
+    height: 260px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.section-4-offers{
-    width: 230px;
-    height: 100%;background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90
-    );
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-.section4-offers-viewall{
-    margin-top: 132px;
-    widows: 100%;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.section4-offers-viewall button{
-    margin-top: 24px;
-    height: 40px;
-    background-color: rgb(23, 90, 225);
-    color: white;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: 500;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
 }
 .section-4-list{
     height: 100%;
@@ -232,17 +201,18 @@ header .seller button{
 }
 .section-4-item{
     width: 232px;
-    height: 83%;
+    height: 87%;
     padding: 0 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    border: 1px solid lightgray;
+    margin-left: 7px;
 }
 .section-4-item img{
     max-width: 200px;
-    max-height: 200px;
+    max-height: 144px;
     }
 .section-4-item-head{
     margin-top: 16px;
@@ -254,23 +224,56 @@ header .seller button{
     font-size: 16px;
     font-weight: 600;
 }
-.sec4-txt{
-    display:flex;
-    flex-basis:auto;
-    flex-direction:row;
-    flex-shrink:0;
-    align-items:center;
-    border-width:0;
-    min-height:80px;
-    min-width:0;
-    position:relative;
-    z-index:0;
-    box-sizing:border-box;
-    flex:1
+
+.section-x-container{
+    margin-top: 8px;
+    height: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.section-x-list{
+    height: 100%;
+    width: calc((100% -230px));
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+}
+.section-x-item{
+    width: 232px;
+    height: 83%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(210, 210, 210);
+    margin-left: 10px;
+    border-radius: 4px;
+    
+}
+.section-x-item img{
+    max-width: 200px;
+    max-height: 118px;
+    margin-top: 14px;
+
+    }
+.section-x-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    
+}
+.section-x-item-price{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .flight img{
-    height: 311px;
-    width: 218px;
+    height: 226px;
+    width: 235px;
+    margin-left: 8px;
 }
 .section-6{
     margin-top: 8px;
@@ -290,6 +293,36 @@ header .seller button{
 .section-7 .msof{
     margin-top: 5px;
 }
-footer {
+footer{
+    display: block;
+}
+.end {
     background-color: black;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 40px 60px 0;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+    margin-block-start: -19px;
+}
+.end a{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.end a:hover{
+    text-decoration: underline;
+}
+.end p{
+    color: white;
+    background-color: black;
+    font-size: 12px;
+}
+.about{
+    background-color: black;
+    color: #878787;
+    font-size: 15px;
+    font-weight: 700;
 }
